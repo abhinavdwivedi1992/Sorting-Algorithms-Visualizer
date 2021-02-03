@@ -1,0 +1,84 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1{
+    color:rgb(0, 119, 255);
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+h2{
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+p{
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer{
+    color: rgb(85, 85, 85);
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+hr{
+    border-width: 0;
+    color: rgb(218, 218, 218);
+    background-color: rgb(218, 218, 218);
+    size: 3;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 119, 255);
+}
+
+.demo-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.algorithm-gifs{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.algorithm-cell{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.algorithm-cell img{
+    width: 98%;
+    object-fit: contain;
+}
+
+.showcase{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.demonstration{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.demonstration p{
+    font-size: large;
+}
+
+.showcase img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.demonstration img{
+    width: 98%;
+    object-fit: contain;
+}
