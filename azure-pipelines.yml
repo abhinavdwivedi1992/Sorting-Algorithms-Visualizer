@@ -36,7 +36,12 @@ steps:
   displayName: 'pytest'
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'testsonar'
-    organization: 'test-sonar-project'
+    SonarCloud: 'testsonarriki'
+    organization: 'consult2teamit'
     scannerMode: 'MSBuild'
-    projectKey: 'abhinavdwivedi1192'
+    projectKey: 'abhinavdwivedi1992'
+    projectName: 'test-github'
+- task: SonarCloudAnalyze@1
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
