@@ -34,3 +34,9 @@ steps:
     pip install pytest pytest-azurepipelines
     pytest
   displayName: 'pytest'
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'testsonar'
+    organization: 'test-sonar-project'
+    scannerMode: 'MSBuild'
+    projectKey: 'abhinavdwivedi1192'
